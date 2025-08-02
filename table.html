@@ -1,21 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table</title>
     <style>
-        table{
-border-collapse: collapse;
+        table {
+            border-collapse: collapse;
         }
-        td,th{
-            border:1px solid black;
+
+        td,
+        th {
+            border: 1px solid black;
             padding: 5px 10px;
         }
     </style>
+    <link rel="stylesheet" href="styles/nav.css">
 </head>
+
 <body>
-    <h1>Html table</h1>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Html table</h1>
     <table>
         <caption>Employee salary data </caption>
         <thead>
@@ -28,11 +44,11 @@ border-collapse: collapse;
 
         </thead>
         <tbody>
-           <tr>
-            <td>1</td>
-            <td>Bill gates</td>
-            <td>microsoft</td>
-            <td>$1000</td>
+            <tr>
+                <td>1</td>
+                <td>Bill gates</td>
+                <td>microsoft</td>
+                <td>$1000</td>
             </tr>
             <tr>
                 <td>2</td>
@@ -40,12 +56,13 @@ border-collapse: collapse;
                 <td>Founder apple</td>
                 <td>$1100</td>
             </tr>
-              <tr>
+            <tr>
                 <td>3</td>
                 <td>steve jobs</td>
                 <td>Founder apple</td>
                 <td>$1100</td>
-            </tr>  <tr>
+            </tr>
+            <tr>
                 <td>4</td>
                 <td>steve jobs</td>
                 <td>Founder apple </td>
@@ -68,6 +85,8 @@ border-collapse: collapse;
         <li>table row: tr</li>
     </ul>
 
-    
+    </main>
+
 </body>
+
 </html>
