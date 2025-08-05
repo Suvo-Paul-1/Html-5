@@ -25,3 +25,5 @@ nav li .dropdown{
 nav li:hover > .dropdown{
     display: block;
 }
+
+/* for take action of immediate child we use ">" this symbol  */
